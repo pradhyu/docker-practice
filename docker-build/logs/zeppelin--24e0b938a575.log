@@ -1,0 +1,271 @@
+ WARN [2017-07-29 05:44:00,294] ({main} ZeppelinConfiguration.java[create]:97) - Failed to load configuration, proceeding with a default
+ INFO [2017-07-29 05:44:00,341] ({main} ZeppelinConfiguration.java[create]:109) - Server Host: 0.0.0.0
+ INFO [2017-07-29 05:44:00,342] ({main} ZeppelinConfiguration.java[create]:111) - Server Port: 8080
+ INFO [2017-07-29 05:44:00,342] ({main} ZeppelinConfiguration.java[create]:115) - Context Path: /
+ INFO [2017-07-29 05:44:00,348] ({main} ZeppelinConfiguration.java[create]:116) - Zeppelin Version: 0.7.2
+ INFO [2017-07-29 05:44:00,381] ({main} Log.java[initialized]:186) - Logging initialized @555ms
+ INFO [2017-07-29 05:44:00,468] ({main} ZeppelinServer.java[setupWebAppContext]:343) - ZeppelinServer Webapp path: /zeppelin/webapps
+ INFO [2017-07-29 05:44:00,692] ({main} ZeppelinServer.java[main]:187) - Starting zeppelin server
+ INFO [2017-07-29 05:44:00,696] ({main} Server.java[doStart]:327) - jetty-9.2.15.v20160210
+ INFO [2017-07-29 05:44:02,505] ({main} StandardDescriptorProcessor.java[visitServlet]:297) - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+ WARN [2017-07-29 05:44:02,700] ({main} Helium.java[loadConf]:101) - /zeppelin/conf/helium.json does not exists
+ WARN [2017-07-29 05:44:02,995] ({main} Interpreter.java[register]:406) - Static initialization is deprecated for interpreter sql, You should change it to use interpreter-setting.json in your jar or interpreter/{interpreter}/interpreter-setting.json
+ INFO [2017-07-29 05:44:02,997] ({main} InterpreterSettingManager.java[init]:305) - Interpreter psql.sql found. class=org.apache.zeppelin.postgresql.PostgreSqlInterpreter
+ INFO [2017-07-29 05:44:03,183] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name ignite
+ INFO [2017-07-29 05:44:03,183] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name python
+ INFO [2017-07-29 05:44:03,184] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name jdbc
+ INFO [2017-07-29 05:44:03,187] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name psql
+ INFO [2017-07-29 05:44:03,188] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name lens
+ INFO [2017-07-29 05:44:03,188] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name pig
+ INFO [2017-07-29 05:44:03,189] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name flink
+ INFO [2017-07-29 05:44:03,189] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name angular
+ INFO [2017-07-29 05:44:03,190] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name livy
+ INFO [2017-07-29 05:44:03,190] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name file
+ INFO [2017-07-29 05:44:03,190] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name elasticsearch
+ INFO [2017-07-29 05:44:03,190] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name spark
+ INFO [2017-07-29 05:44:03,190] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name cassandra
+ INFO [2017-07-29 05:44:03,191] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name sh
+ INFO [2017-07-29 05:44:03,191] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name md
+ INFO [2017-07-29 05:44:03,191] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name alluxio
+ INFO [2017-07-29 05:44:03,191] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name bigquery
+ INFO [2017-07-29 05:44:03,192] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name hbase
+ INFO [2017-07-29 05:44:03,192] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name kylin
+ INFO [2017-07-29 05:44:03,230] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group bigquery : id=2CQJKXT6J, name=bigquery
+ INFO [2017-07-29 05:44:03,231] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group md : id=2CPGXYRSX, name=md
+ INFO [2017-07-29 05:44:03,231] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group flink : id=2CRM83PJX, name=flink
+ INFO [2017-07-29 05:44:03,232] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group hbase : id=2CNZCJA7J, name=hbase
+ INFO [2017-07-29 05:44:03,232] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group lens : id=2CNYHE83W, name=lens
+ INFO [2017-07-29 05:44:03,233] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group cassandra : id=2CNGJR3JH, name=cassandra
+ INFO [2017-07-29 05:44:03,234] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group spark : id=2CP2FWSDN, name=spark
+ INFO [2017-07-29 05:44:03,234] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group alluxio : id=2CPKA7JHE, name=alluxio
+ INFO [2017-07-29 05:44:03,234] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group file : id=2CP88HTZW, name=file
+ INFO [2017-07-29 05:44:03,234] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group ignite : id=2CNV27A95, name=ignite
+ INFO [2017-07-29 05:44:03,235] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group python : id=2CQZ6X4QH, name=python
+ INFO [2017-07-29 05:44:03,235] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group elasticsearch : id=2CP3D1GMV, name=elasticsearch
+ INFO [2017-07-29 05:44:03,235] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group psql : id=2CP8NEFDZ, name=psql
+ INFO [2017-07-29 05:44:03,235] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group sh : id=2CQHE4QHM, name=sh
+ INFO [2017-07-29 05:44:03,236] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group kylin : id=2CNARQFSN, name=kylin
+ INFO [2017-07-29 05:44:03,236] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group angular : id=2CPGTGBJT, name=angular
+ INFO [2017-07-29 05:44:03,236] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group pig : id=2CP2XZNQA, name=pig
+ INFO [2017-07-29 05:44:03,236] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group livy : id=2CP3DEGF3, name=livy
+ INFO [2017-07-29 05:44:03,237] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group jdbc : id=2CRF4PFUM, name=jdbc
+ INFO [2017-07-29 05:44:03,243] ({main} InterpreterFactory.java[<init>]:130) - shiroEnabled: false
+ INFO [2017-07-29 05:44:03,305] ({main} VfsLog.java[info]:138) - Using "/tmp/vfs_cache" as temporary files store.
+ INFO [2017-07-29 05:44:03,360] ({main} GitNotebookRepo.java[<init>]:63) - Opening a git repo at '/notebook'
+ INFO [2017-07-29 05:44:03,513] ({main} GitNotebookRepo.java[<init>]:66) - Git repo /notebook/.git does not exist, creating a new one
+ INFO [2017-07-29 05:44:03,644] ({main} NotebookAuthorization.java[loadFromFile]:96) - /zeppelin/conf/notebook-authorization.json
+ INFO [2017-07-29 05:44:03,645] ({main} Credentials.java[loadFromFile]:102) - /zeppelin/conf/credentials.json
+ INFO [2017-07-29 05:44:03,728] ({main} StdSchedulerFactory.java[instantiate]:1184) - Using default implementation for ThreadExecutor
+ INFO [2017-07-29 05:44:03,733] ({main} SimpleThreadPool.java[initialize]:268) - Job execution threads will use class loader of thread: main
+ INFO [2017-07-29 05:44:03,747] ({main} SchedulerSignalerImpl.java[<init>]:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+ INFO [2017-07-29 05:44:03,749] ({main} QuartzScheduler.java[<init>]:240) - Quartz Scheduler v.2.2.1 created.
+ INFO [2017-07-29 05:44:03,750] ({main} RAMJobStore.java[initialize]:155) - RAMJobStore initialized.
+ INFO [2017-07-29 05:44:03,751] ({main} QuartzScheduler.java[initialize]:305) - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+ INFO [2017-07-29 05:44:03,751] ({main} StdSchedulerFactory.java[instantiate]:1339) - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+ INFO [2017-07-29 05:44:03,752] ({main} StdSchedulerFactory.java[instantiate]:1343) - Quartz scheduler version: 2.2.1
+ INFO [2017-07-29 05:44:03,752] ({main} QuartzScheduler.java[start]:575) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+ INFO [2017-07-29 05:44:03,757] ({main} Notebook.java[<init>]:127) - Notebook indexing started...
+ INFO [2017-07-29 05:44:03,766] ({main} LuceneSearch.java[addIndexDocs]:305) - Indexing 0 notebooks took 8ms
+ INFO [2017-07-29 05:44:03,767] ({main} Notebook.java[<init>]:129) - Notebook indexing finished: 0 indexed in 0s
+ INFO [2017-07-29 05:44:03,960] ({main} ServerImpl.java[initDestination]:94) - Setting the server's publish address to be /
+ INFO [2017-07-29 05:44:04,581] ({main} ContextHandler.java[doStart]:744) - Started o.e.j.w.WebAppContext@2698dc7{/,file:/zeppelin/webapps/webapp/,AVAILABLE}{/zeppelin/zeppelin-web-0.7.2.war}
+ INFO [2017-07-29 05:44:04,607] ({main} AbstractConnector.java[doStart]:266) - Started ServerConnector@6e18ec03{HTTP/1.1}{0.0.0.0:8080}
+ INFO [2017-07-29 05:44:04,607] ({main} Server.java[doStart]:379) - Started @4785ms
+ INFO [2017-07-29 05:44:04,607] ({main} ZeppelinServer.java[main]:194) - Done, zeppelin server started
+ WARN [2017-07-29 05:44:15,687] ({qtp1632392469-17} SecurityRestApi.java[ticket]:87) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2017-07-29 05:44:15,835] ({qtp1632392469-12} NotebookServer.java[onOpen]:156) - New connection from 172.17.0.1 : 57320
+ INFO [2017-07-29 05:46:42,055] ({qtp1632392469-14} FolderView.java[onNoteNameChanged]:205) - Note name changed:  -> scala
+ INFO [2017-07-29 05:46:42,057] ({qtp1632392469-14} FolderView.java[createFolder]:107) - Create folder /
+ INFO [2017-07-29 05:46:42,057] ({qtp1632392469-14} Folder.java[setParent]:168) - Set parent of / to /
+ INFO [2017-07-29 05:46:42,057] ({qtp1632392469-14} Folder.java[addNote]:184) - Add note 2CP8715NC to folder /
+ INFO [2017-07-29 05:46:42,278] ({qtp1632392469-13} NotebookServer.java[sendNote]:705) - New operation from 172.17.0.1 : 57320 : anonymous : GET_NOTE : 2CP8715NC
+ WARN [2017-07-29 05:46:42,383] ({qtp1632392469-13} GitNotebookRepo.java[revisionHistory]:157) - No Head found for 2CP8715NC, No HEAD exists and no explicit starting revision was specified
+ INFO [2017-07-29 05:46:42,440] ({qtp1632392469-17} InterpreterFactory.java[createInterpretersForNote]:188) - Create interpreter instance spark for note 2CP8715NC
+ INFO [2017-07-29 05:46:42,444] ({qtp1632392469-17} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.SparkInterpreter 681313091 created
+ INFO [2017-07-29 05:46:42,445] ({qtp1632392469-17} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.SparkSqlInterpreter 447700249 created
+ INFO [2017-07-29 05:46:42,446] ({qtp1632392469-17} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.DepInterpreter 154140909 created
+ INFO [2017-07-29 05:46:42,446] ({qtp1632392469-17} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.PySparkInterpreter 1083838287 created
+ INFO [2017-07-29 05:46:42,447] ({qtp1632392469-17} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.SparkRInterpreter 148146692 created
+ INFO [2017-07-29 05:47:10,372] ({qtp1632392469-12} NotebookServer.java[broadcastNewParagraph]:641) - Broadcasting paragraph on run call instead of note.
+ INFO [2017-07-29 05:47:10,395] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:47:10,397] ({pool-2-thread-2} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:47:10,408] ({pool-2-thread-2} RemoteInterpreterManagedProcess.java[start]:126) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/spark, -p, 39039, -l, /zeppelin/local-repo/2CP2FWSDN]
+ INFO [2017-07-29 05:47:10,992] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2017-07-29 05:47:11,133] ({pool-2-thread-2} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:551) - Push local angular object registry from ZeppelinServer to remote interpreter group 2CP2FWSDN:shared_process
+ INFO [2017-07-29 05:47:11,150] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2017-07-29 05:47:11,158] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2017-07-29 05:47:11,162] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.PySparkInterpreter
+ INFO [2017-07-29 05:47:11,180] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.SparkRInterpreter
+ WARN [2017-07-29 05:47:28,137] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2058) - Job 20170729-054642_1924642259 is finished, status: ERROR, exception: null, result: %text x: scala.collection.immutable.Range.Inclusive = Range(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 1...
+
+
+
+<console>:28: error: not enough arguments for method sum: (implicit num: Numeric[B])Int.
+Unspecified value parameter num.
+       x.sum()
+            ^
+
+ INFO [2017-07-29 05:47:28,189] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:48:12,832] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:48:12,832] ({pool-2-thread-2} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ WARN [2017-07-29 05:48:13,346] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2058) - Job 20170729-054642_1924642259 is finished, status: ERROR, exception: null, result: %text x: scala.collection.immutable.Range.Inclusive = Range(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 1...
+
+
+
+<console>:28: error: not enough arguments for method count: (p: Int => Boolean)Int.
+Unspecified value parameter p.
+       x.count()
+              ^
+
+ INFO [2017-07-29 05:48:13,395] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:48:45,967] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:48:45,972] ({pool-2-thread-3} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:48:48,024] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2056) - Job 20170729-054642_1924642259 is finished successfully, status: FINISHED
+ INFO [2017-07-29 05:48:48,075] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:48:56,931] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:48:56,932] ({pool-2-thread-2} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:49:08,684] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2056) - Job 20170729-054642_1924642259 is finished successfully, status: FINISHED
+ INFO [2017-07-29 05:49:08,720] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:49:53,735] ({qtp1632392469-18} NotebookRepoRestApi.java[listRepoSettings]:73) - Getting list of NoteRepo with Settings for user anonymous
+ INFO [2017-07-29 05:49:59,215] ({qtp1632392469-12} NotebookServer.java[sendNote]:705) - New operation from 172.17.0.1 : 57320 : anonymous : GET_NOTE : 2CP8715NC
+ WARN [2017-07-29 05:49:59,222] ({qtp1632392469-12} GitNotebookRepo.java[revisionHistory]:157) - No Head found for 2CP8715NC, No HEAD exists and no explicit starting revision was specified
+ INFO [2017-07-29 05:51:10,922] ({qtp1632392469-14} NotebookServer.java[sendNote]:705) - New operation from 172.17.0.1 : 57320 : anonymous : GET_NOTE : 2CP8715NC
+ WARN [2017-07-29 05:51:10,935] ({qtp1632392469-14} GitNotebookRepo.java[revisionHistory]:157) - No Head found for 2CP8715NC, No HEAD exists and no explicit starting revision was specified
+ INFO [2017-07-29 05:51:18,194] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:18,195] ({pool-2-thread-4} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:51:18,207] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2056) - Job 20170729-054642_1924642259 is finished successfully, status: FINISHED
+ INFO [2017-07-29 05:51:18,252] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:28,552] ({qtp1632392469-12} NotebookServer.java[onClose]:363) - Closed connection to 172.17.0.1 : 57320. (1006) WebSocket Read EOF
+ WARN [2017-07-29 05:51:28,676] ({qtp1632392469-12} SecurityRestApi.java[ticket]:87) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2017-07-29 05:51:28,734] ({qtp1632392469-15} NotebookServer.java[onOpen]:156) - New connection from 172.17.0.1 : 57374
+ INFO [2017-07-29 05:51:32,868] ({qtp1632392469-15} NotebookServer.java[sendNote]:705) - New operation from 172.17.0.1 : 57374 : anonymous : GET_NOTE : 2CP8715NC
+ WARN [2017-07-29 05:51:32,875] ({qtp1632392469-15} GitNotebookRepo.java[revisionHistory]:157) - No Head found for 2CP8715NC, No HEAD exists and no explicit starting revision was specified
+ INFO [2017-07-29 05:51:35,319] ({qtp1632392469-14} NotebookServer.java[broadcastNewParagraph]:641) - Broadcasting paragraph on run call instead of note.
+ INFO [2017-07-29 05:51:41,930] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:41,931] ({pool-2-thread-3} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:51:41,940] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2056) - Job 20170729-054642_1924642259 is finished successfully, status: FINISHED
+ INFO [2017-07-29 05:51:41,972] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:45,179] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:45,179] ({pool-2-thread-5} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:51:45,187] ({pool-2-thread-5} NotebookServer.java[afterStatusChange]:2056) - Job 20170729-054642_1924642259 is finished successfully, status: FINISHED
+ INFO [2017-07-29 05:51:45,212] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:51,182] ({qtp1632392469-18} NotebookServer.java[onClose]:363) - Closed connection to 172.17.0.1 : 57374. (1006) WebSocket Read EOF
+ WARN [2017-07-29 05:51:51,287] ({qtp1632392469-18} SecurityRestApi.java[ticket]:87) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2017-07-29 05:51:51,387] ({qtp1632392469-12} NotebookServer.java[onOpen]:156) - New connection from 172.17.0.1 : 57376
+ INFO [2017-07-29 05:51:51,396] ({qtp1632392469-13} NotebookServer.java[sendNote]:705) - New operation from 172.17.0.1 : 57376 : anonymous : GET_NOTE : 2CP8715NC
+ WARN [2017-07-29 05:51:51,411] ({qtp1632392469-13} GitNotebookRepo.java[revisionHistory]:157) - No Head found for 2CP8715NC, No HEAD exists and no explicit starting revision was specified
+ INFO [2017-07-29 05:51:51,412] ({qtp1632392469-13} NotebookServer.java[sendNote]:705) - New operation from 172.17.0.1 : 57376 : anonymous : GET_NOTE : 2CP8715NC
+ WARN [2017-07-29 05:51:51,416] ({qtp1632392469-13} GitNotebookRepo.java[revisionHistory]:157) - No Head found for 2CP8715NC, No HEAD exists and no explicit starting revision was specified
+ INFO [2017-07-29 05:51:53,861] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:53,862] ({pool-2-thread-2} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ WARN [2017-07-29 05:51:53,871] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2058) - Job 20170729-054642_1924642259 is finished, status: ERROR, exception: null, result: %text 
+
+
+<console>:1: error: integer number too large
+val x = (1 to 10000000000)
+              ^
+
+ INFO [2017-07-29 05:51:53,892] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:55,531] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:55,532] ({pool-2-thread-6} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:51:55,543] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2056) - Job 20170729-054642_1924642259 is finished successfully, status: FINISHED
+ INFO [2017-07-29 05:51:55,569] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:56,224] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:56,225] ({pool-2-thread-4} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:51:56,236] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2056) - Job 20170729-054642_1924642259 is finished successfully, status: FINISHED
+ INFO [2017-07-29 05:51:56,271] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:56,839] ({pool-2-thread-7} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:56,840] ({pool-2-thread-7} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:51:56,852] ({pool-2-thread-7} NotebookServer.java[afterStatusChange]:2056) - Job 20170729-054642_1924642259 is finished successfully, status: FINISHED
+ INFO [2017-07-29 05:51:56,883] ({pool-2-thread-7} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:58,121] ({qtp1632392469-12} NotebookServer.java[broadcastNewParagraph]:641) - Broadcasting paragraph on run call instead of note.
+ INFO [2017-07-29 05:51:59,733] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:51:59,738] ({pool-2-thread-3} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ WARN [2017-07-29 05:51:59,792] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2058) - Job 20170729-054642_1924642259 is finished, status: ERROR, exception: null, result: %text 
+
+
+<console>:1: error: integer number too large
+val x = (1 to 10000000000)
+              ^
+
+ INFO [2017-07-29 05:51:59,819] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:52:16,503] ({pool-2-thread-8} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:52:16,504] ({pool-2-thread-8} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ INFO [2017-07-29 05:52:16,917] ({pool-2-thread-8} NotebookServer.java[afterStatusChange]:2056) - Job 20170729-054642_1924642259 is finished successfully, status: FINISHED
+ WARN [2017-07-29 05:52:16,943] ({pool-2-thread-8} NotebookServer.java[afterStatusChange]:2058) - Job 20170729-054642_1924642259 is finished, status: ERROR, exception: null, result: %text x: scala.collection.immutable.Range.Inclusive = Range(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 1...
+
+
+
+<console>:28: error: not enough arguments for method sum: (implicit num: Numeric[B])Int.
+Unspecified value parameter num.
+       x.sum()
+            ^
+
+ INFO [2017-07-29 05:52:16,961] ({pool-2-thread-8} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:52:28,242] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:52:28,243] ({pool-2-thread-5} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ WARN [2017-07-29 05:52:28,599] ({pool-2-thread-5} NotebookServer.java[afterStatusChange]:2058) - Job 20170729-054642_1924642259 is finished, status: ERROR, exception: null, result: %text x: scala.collection.immutable.Range.Inclusive = Range(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 1...
+
+
+
+
+<console>:28: error: type mismatch;
+ found   : Int(10)
+ required: Numeric[?]
+       x.sum(10)
+             ^
+
+ INFO [2017-07-29 05:52:28,619] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:52:50,027] ({pool-2-thread-9} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1501307202052_522856320 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:52:50,028] ({pool-2-thread-9} Paragraph.java[jobRun]:362) - run paragraph 20170729-054642_1924642259 using null org.apache.zeppelin.interpreter.LazyOpenInterpreter@289c0343
+ WARN [2017-07-29 05:52:50,395] ({pool-2-thread-9} NotebookServer.java[afterStatusChange]:2058) - Job 20170729-054642_1924642259 is finished, status: ERROR, exception: null, result: %text x: scala.collection.immutable.Range.Inclusive = Range(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 1...
+
+
+
+
+<console>:28: error: type mismatch;
+ found   : scala.collection.immutable.Range.Inclusive
+ required: Numeric[?]
+       x.sum(x)
+             ^
+
+ INFO [2017-07-29 05:52:50,428] ({pool-2-thread-9} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1501307202052_522856320 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1484822299
+ INFO [2017-07-29 05:53:49,749] ({qtp1632392469-18} NotebookServer.java[sendNote]:705) - New operation from 172.17.0.1 : 57376 : anonymous : GET_NOTE : 2CP8715NC
+ WARN [2017-07-29 05:53:49,757] ({qtp1632392469-18} GitNotebookRepo.java[revisionHistory]:157) - No Head found for 2CP8715NC, No HEAD exists and no explicit starting revision was specified
+ INFO [2017-07-29 05:53:58,755] ({Thread-13} ZeppelinServer.java[run]:198) - Shutting down Zeppelin Server ... 
+ INFO [2017-07-29 05:53:58,760] ({qtp1632392469-12} NotebookServer.java[onClose]:363) - Closed connection to 172.17.0.1 : 57376. (1005) null
+ INFO [2017-07-29 05:53:58,774] ({Thread-13} AbstractConnector.java[doStop]:306) - Stopped ServerConnector@6e18ec03{HTTP/1.1}{0.0.0.0:8080}
+ INFO [2017-07-29 05:53:58,791] ({Thread-13} ContextHandler.java[doStop]:865) - Stopped o.e.j.w.WebAppContext@2698dc7{/,file:/zeppelin/webapps/webapp/,UNAVAILABLE}{/zeppelin/zeppelin-web-0.7.2.war}
+ INFO [2017-07-29 05:53:59,477] ({Thread-46} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CQJKXT6J:shared_process
+ INFO [2017-07-29 05:53:59,477] ({Thread-47} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CPGXYRSX:shared_process
+ INFO [2017-07-29 05:53:59,484] ({Thread-59} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CP8NEFDZ:shared_process
+ INFO [2017-07-29 05:53:59,484] ({Thread-63} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CPGTGBJT:shared_process
+ INFO [2017-07-29 05:53:59,479] ({Thread-56} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CNV27A95:shared_process
+ INFO [2017-07-29 05:53:59,478] ({Thread-51} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CNYHE83W:shared_process
+ INFO [2017-07-29 05:53:59,478] ({Thread-55} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CP88HTZW:shared_process
+ INFO [2017-07-29 05:53:59,478] ({Thread-54} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CPKA7JHE:shared_process
+ INFO [2017-07-29 05:53:59,478] ({Thread-53} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CP2FWSDN:shared_process
+ INFO [2017-07-29 05:53:59,483] ({Thread-58} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CP3D1GMV:shared_process
+ INFO [2017-07-29 05:53:59,478] ({Thread-52} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CNGJR3JH:shared_process
+ INFO [2017-07-29 05:53:59,478] ({Thread-49} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CNZCJA7J:shared_process
+ INFO [2017-07-29 05:53:59,477] ({Thread-48} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CRM83PJX:shared_process
+ INFO [2017-07-29 05:53:59,491] ({Thread-53} RemoteInterpreterProcess.java[dereference]:123) - shutdown interpreter process
+ INFO [2017-07-29 05:53:59,489] ({Thread-78} InterpreterGroup.java[close]:185) - Close interpreter group 2CP2FWSDN:shared_process for session: shared_session
+ INFO [2017-07-29 05:53:59,489] ({Thread-71} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CRF4PFUM:shared_process
+ INFO [2017-07-29 05:53:59,488] ({Thread-70} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CP3DEGF3:shared_process
+ INFO [2017-07-29 05:53:59,488] ({Thread-64} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CP2XZNQA:shared_process
+ INFO [2017-07-29 05:53:59,485] ({Thread-62} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CNARQFSN:shared_process
+ INFO [2017-07-29 05:53:59,484] ({Thread-57} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CQZ6X4QH:shared_process
+ INFO [2017-07-29 05:53:59,484] ({Thread-60} InterpreterGroup.java[shutdown]:245) - Close interpreter group 2CQHE4QHM:shared_process
+ERROR [2017-07-29 05:53:59,554] ({pool-4-thread-1} AppendOutputRunner.java[run]:68) - Wait for OutputBuffer queue interrupted: null
+ INFO [2017-07-29 05:54:02,229] ({Thread-53} RemoteInterpreterProcess.java[dereference]:133) - Exception in RemoteInterpreterProcess while synchronized dereference, can safely ignore exception while client.shutdown() may terminates remote process
+ INFO [2017-07-29 05:54:02,232] ({Exec Default Executor} RemoteInterpreterManagedProcess.java[onProcessComplete]:180) - Interpreter process exited 0
+ INFO [2017-07-29 05:54:02,241] ({Thread-13} NotebookRepoSync.java[close]:430) - Closing all notebook storages
+ INFO [2017-07-29 05:54:05,243] ({Thread-13} ZeppelinServer.java[run]:207) - Bye
